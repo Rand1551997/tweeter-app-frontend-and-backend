@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
